@@ -28,6 +28,92 @@
     .row
       .col-12.justify-content-center.mt-5.mb-5
         img(src='@/assets/curso/tema1/grafica1.jpg')
+    span.mt-4.mb-4 Para el desarrollo de una aplicación JAVA que usa el entorno de desarrollo de Eclipse es necesario descargar todas las librerías requeridas por el framework de Hibernate las cuales puede encontrar en la página oficial del ORM 
+    span.marca https://hibernate.org/orm/
+    | . Una vez descargado el paquete este se debe descomprimir y podrá encontrar los archivos jar necesarios en la ubicación /lib/required los cuales deberá anexar al proyecto JAVA. 
+    .row.mt-5.mb-5.bg-color-gris.pb-5
+      .col-7.mt-5
+        .cajon.color-primario.p-4.mb-4.Neg-Izq
+          span Debido a que Hibernate utiliza el Driver JDBC necesitará también descargar el Driver correspondiente a la base de datos a acceder desde su página oficial. Para el caso de MySQL podrá encontrar el Driver en: 
+          span.marca https://dev.mysql.com/downloads/connector/j/. 
+        p.mt-4.mb-4 En el siguiente video se muestra un ejemplo de alistamiento de una aplicación Java en IDE de Eclipse para trabajar con Hibernate y una base de datos MySQL.
+        .row.color-azulclaro.ms-2
+          .col-2.me-0
+            img.me-0.mt-2.mb-2(src='@/assets/curso/tema1/manoClick.svg')
+          .col-10
+            .row.align-items-center
+              .col-9
+                h3.mb-0.mt-5.text-white Alistamiento Hibernate
+                p.mb-0.text-white Estimado aprendiz, para profundizar sobre el tema puede consultar el siguiente video.
+              .col-3
+                a.boton.mb-0.mt-4.me-4.indicador__container(
+                  href="https://www.youtube.com/embed/2L91WMqw96A"
+                  target="_blank"
+                  @mouseover="mostrarIndicador = false"
+                )
+                  span.Text-mediano Ver
+                  i.Text-grande.fas.fa-link
+                  .indicador--click(v-if="mostrarIndicador")
+      .col-5
+          img.Neg-Izq(src='@/assets/curso/tema1/teclado.png')
+    .cajon.color-acento-botones.p-4.mb-4
+      p Teniendo en cuenta que Hibernate debe usar el Driver JDBC para la ejecución de las instrucciones en la base de datos se debe construir un archivo de configuración en formato XML donde se especifique la Url del JDBC y las credenciales de acceso a la base de datos.  En la siguiente figura se presenta el esquema general de funcionamiento en el proceso de configuración:
+    .row.mb-5
+      .col-4
+        h3.mt-5.me-0.text-white.bgNegro.p-2.mb-0.text-center Hibernate Archivo de configuración
+      .col-8
+    img.ms-2(src='@/assets/curso/tema1/JDBC.jpg')
+    img.mt-5(src='@/assets/curso/tema1/imagen1.jpg')
+    .row.bgNaranja.me-5.ms-5.mb-5.p-3.Neg-Top40.position-relative
+      .col-12
+        p.text-center.mb-0 Este archivo de configuración define un conjunto de propiedades que serán utilizadas para crear las sesiones mediante las cuales se inicia un conjunto de transacciones u operaciones sobre la base de datos, entre las propiedades más importantes se encuentran las siguientes:
+    .row.bgbits.align-items-center.p-5
+      .col-12
+        .tabla-c
+          table
+            thead.text-bold.text-center.mb-0.Text-grande
+              th Propiedad
+              th Definición
+            tr.Text-mediano
+              th connection.driver.class
+              td 
+                p Parte de la configuración del JDBC donde se define el driver a usar.
+            tr.Text-mediano
+              th connection.url
+              td 
+                p Parte de la configuración del JDBC donde se define la url de la base de datos a utilizar (protocolo: url base de datos: puerto / nombre DB)
+            tr.Text-mediano
+              th connection.username
+              td 
+                p Parte de la configuración del JDBC donde se define el usuario de la base de datos a utilizar en la conexión.
+            tr.Text-mediano
+              th connection.password
+              td 
+                p Parte de la configuración del JDBC donde se define el password del usuario de la base de datos a utilizar en la conexión.
+            tr.Text-mediano
+              th connection.pool_size
+              td 
+                p Número de conexiones simultáneas al JDBC.
+            tr.Text-mediano
+              th dialect
+              td 
+                p Aunque SQL es un estándar, cada motor de bases de datos tiene una implementación particular. En esta propiedad se especifica el dialecto a utilizar por Hibernate.
+            tr.Text-mediano
+              th show_sql
+              td 
+                p Esta propiedad permite ver en la salida estándar las sentencias SQL que ejecuta en background Hibernate lo cual sirve mucho para entender lo que está sucediendo en entornos de desarrollo.
+            tr.Text-mediano
+              th current_session_context_class
+              td 
+                p Especifica el contexto de la sesión actual, por defecto se puede asignar thread.
+
+    p.mb-4 Es importante tener en cuenta que este archivo de configuración de Hibernate debe estar ubicado en la raíz de la carpeta src del proyecto de forma que pueda ser utilizado por Hibernate en cualquier contexto de la aplicación. A continuación, se muestra cómo debe verse un archivo de configuración de Hibernate completo donde se establece una conexión con una base de datos MySQL en un servidor que se está ejecutando en la máquina local en localhost y puerto 3306 con el usuario root y contraseña 12345:
+    img.mt-5(src='@/assets/curso/tema1/codigo1.jpg')
+
+
+
+
+
 </template>
 
 <script>
