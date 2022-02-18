@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1263.133" height="317.508" viewBox="0 0 1263.133 317.508">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.353" y1="1.35" x2="0.702" y2="-0.696" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.25" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#afafaf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_146132" data-name="Grupo 146132" transform="translate(-148 -4800)">
+    <g id="Grupo_145862" data-name="Grupo 145862" transform="translate(148 4803)">
+      <g id="Grupo_145858" data-name="Grupo 145858" transform="translate(0 0)">
+        <path id="Trazado_188504" data-name="Trazado 188504" d="M3.03,0H389.648c1.674,0,3.03.878,3.03,1.962V295.086c0,1.083-1.357,1.962-3.03,1.962H3.03c-1.674,0-3.03-.878-3.03-1.962V1.962C0,.878,1.357,0,3.03,0Z" transform="translate(0.297 0)" fill="#12263f"/>
+        <path id="Trazado_183947" data-name="Trazado 183947" d="M333.542,184.776V389.827c0,3.566-.943,7,2.511,7l387.868-.468c3.453,0,2.289-2.963,2.289-6.529V184.776Z" transform="translate(-333.424 -99.776)" fill="url(#linear-gradient)"/>
+        <rect id="Rectángulo_37343" data-name="Rectángulo 37343" width="24.555" height="306.24" rx="5.408" transform="translate(349.756 42.905) rotate(90)" fill="url(#linear-gradient-2)"/>
+        <path id="Trazado_183948" data-name="Trazado 183948" d="M369.766,161.131a6.67,6.67,0,1,1-6.669-6.672A6.67,6.67,0,0,1,369.766,161.131Z" transform="translate(-287.908 -138.686)" fill="#fff"/>
+        <path id="Trazado_183951" data-name="Trazado 183951" d="M369.766,161.131a6.67,6.67,0,1,1-6.669-6.672A6.67,6.67,0,0,1,369.766,161.131Z" transform="translate(-314.535 -138.686)" fill="#ffa726"/>
+        <path id="Trazado_183949" data-name="Trazado 183949" d="M379.582,161.131a6.672,6.672,0,1,1-6.672-6.672A6.672,6.672,0,0,1,379.582,161.131Z" transform="translate(-271.095 -138.686)" fill="#26a69a"/>
+      </g>
+      <text id="public_class_TiendaCafe_private_Cafe_producto_public_TiendaCafe_producto_new_CafeOscuro_" data-name="public class TiendaCafe {
+private Cafe producto;
+
+public TiendaCafe() {
+producto = new CafeOscuro ();
+}
+}
+" transform="translate(102.916 117.696)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">public class TiendaCafe {</tspan><tspan x="0" y="43">private Cafe producto;</tspan><tspan x="0" y="69"></tspan><tspan x="0" y="95">public TiendaCafe() {</tspan><tspan x="0" y="121">producto = new CafeOscuro ();</tspan><tspan x="0" y="147">}</tspan></text>
+      <line id="Línea_1893" data-name="Línea 1893" y2="206.805" transform="translate(90.223 89.12)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+      <text id="_1_2_3_4_5_6_7_" data-name="1
+2
+3
+4
+5
+6
+7
+" transform="translate(60.472 131.696)" fill="#12263f" font-size="15" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-4.343" y="0">1</tspan><tspan x="-4.343" y="22">2</tspan><tspan x="-4.343" y="44">3</tspan><tspan x="-4.343" y="66">4</tspan><tspan x="-4.343" y="88">5</tspan><tspan x="-4.343" y="110">6</tspan><tspan x="-4.343" y="132">7</tspan><tspan x="0" y="154"></tspan></text>
+    </g>
+    <g id="Grupo_145863" data-name="Grupo 145863" transform="translate(1018.158 4803)">
+      <g id="Grupo_145858-2" data-name="Grupo 145858" transform="translate(0 0)">
+        <path id="Trazado_188504-2" data-name="Trazado 188504" d="M3.03,0H389.648c1.674,0,3.03.878,3.03,1.962V295.086c0,1.083-1.357,1.962-3.03,1.962H3.03c-1.674,0-3.03-.878-3.03-1.962V1.962C0,.878,1.357,0,3.03,0Z" transform="translate(0.297 0)" fill="#12263f"/>
+        <path id="Trazado_183947-2" data-name="Trazado 183947" d="M333.542,184.776V389.827c0,3.566-.943,7,2.511,7l387.868-.468c3.453,0,2.289-2.963,2.289-6.529V184.776Z" transform="translate(-333.424 -99.776)" fill="url(#linear-gradient)"/>
+        <rect id="Rectángulo_37343-2" data-name="Rectángulo 37343" width="24.555" height="306.24" rx="5.408" transform="translate(349.756 42.905) rotate(90)" fill="url(#linear-gradient-2)"/>
+        <path id="Trazado_183948-2" data-name="Trazado 183948" d="M369.766,161.131a6.67,6.67,0,1,1-6.669-6.672A6.67,6.67,0,0,1,369.766,161.131Z" transform="translate(-287.908 -138.686)" fill="#fff"/>
+        <path id="Trazado_183951-2" data-name="Trazado 183951" d="M369.766,161.131a6.67,6.67,0,1,1-6.669-6.672A6.67,6.67,0,0,1,369.766,161.131Z" transform="translate(-314.535 -138.686)" fill="#ffa726"/>
+        <path id="Trazado_183949-2" data-name="Trazado 183949" d="M379.582,161.131a6.672,6.672,0,1,1-6.672-6.672A6.672,6.672,0,0,1,379.582,161.131Z" transform="translate(-271.095 -138.686)" fill="#26a69a"/>
+      </g>
+      <text id="public_class_TiendaCafe_private_Cafe_producto_public_TiendaCafe_Cafe_producto_this.producto_producto_" data-name="public class TiendaCafe {
+private Cafe producto;
+
+public TiendaCafe (Cafe producto) {
+this.producto = producto;
+}
+}
+" transform="translate(102.916 117.696)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">public class TiendaCafe {</tspan><tspan x="0" y="43">private Cafe producto;</tspan><tspan x="0" y="69"></tspan><tspan x="0" y="95">public TiendaCafe (Cafe </tspan><tspan x="0" y="121">producto) {</tspan><tspan x="0" y="147">this.producto = producto;</tspan></text>
+      <line id="Línea_1893-2" data-name="Línea 1893" y2="206.805" transform="translate(90.223 89.12)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="1"/>
+      <text id="_1_2_3_4_5_6_7_2" data-name="1
+2
+3
+4
+5
+6
+7
+" transform="translate(60.472 131.696)" fill="#12263f" font-size="15" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-4.343" y="0">1</tspan><tspan x="-4.343" y="22">2</tspan><tspan x="-4.343" y="44">3</tspan><tspan x="-4.343" y="66">4</tspan><tspan x="-4.343" y="88">5</tspan><tspan x="-4.343" y="110">6</tspan><tspan x="-4.343" y="132">7</tspan><tspan x="0" y="154"></tspan></text>
+    </g>
+    <g id="Grupo_145864" data-name="Grupo 145864" transform="translate(564.238 4841.814)">
+      <g id="Grupo_91006" data-name="Grupo 91006" transform="translate(-0.239 0.186)">
+        <rect id="Rectángulo_2197" data-name="Rectángulo 2197" width="434" height="234" fill="#ffecb1"/>
+        <rect id="Rectángulo_2198" data-name="Rectángulo 2198" width="22" height="7" fill="#ffca28"/>
+      </g>
+    </g>
+    <text id="En_el_ejemplo_anterior_se_muestra_un_código_de_una_tienda_de_café_que_solicita_cambiar_el_tipo_de_café_y_como_se_puede_ver_se_realiza_el_cambio_de_café_dentro_de_la_propia_clase_controlando_esta_sus_propias_dependencias._La_intención_es_obtener_un_acoplami" data-name="En el ejemplo anterior se muestra un código de una tienda de café que solicita cambiar el tipo de café y como se puede ver se realiza el cambio de café dentro de la propia clase controlando esta sus propias dependencias. La intención es obtener un acoplami" transform="translate(591 4865)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="17">En el ejemplo anterior se muestra un código de una </tspan><tspan x="0" y="41">tienda de café que solicita cambiar el tipo de café y </tspan><tspan x="0" y="65">como se puede ver se realiza el cambio de café </tspan><tspan x="0" y="89">dentro de la propia clase controlando esta sus </tspan><tspan x="0" y="113">propias dependencias. La intención es obtener un </tspan><tspan x="0" y="137">acoplamiento suelto o desacoplamiento donde no </tspan><tspan x="0" y="161">exista una dependencia entre los objetos. En el </tspan><tspan x="0" y="185">siguiente ejemplo se puede ver cómo se realiza:</tspan><tspan x="0" y="209"></tspan></text>
+    <g id="Grupo_145865" data-name="Grupo 145865" transform="translate(644.083 4800)">
+      <path id="Unión_54" data-name="Unión 54" d="M0,0H169.722V13.438H0Z" transform="translate(190.561 23.948) rotate(180)" fill="#afafaf"/>
+      <path id="Unión_55" data-name="Unión 55" d="M33.434,17.229,0,34.461V0Z" transform="translate(190.561 0)" fill="#afafaf"/>
+    </g>
+    <g id="Grupo_145866" data-name="Grupo 145866" transform="translate(887.917 5117.508) rotate(180)">
+      <path id="Unión_54-2" data-name="Unión 54" d="M0,0H169.722V13.438H0Z" transform="translate(190.561 23.948) rotate(180)" fill="#afafaf"/>
+      <path id="Unión_55-2" data-name="Unión 55" d="M33.434,17.229,0,34.461V0Z" transform="translate(190.561 0)" fill="#afafaf"/>
+    </g>
+  </g>
+</svg>
