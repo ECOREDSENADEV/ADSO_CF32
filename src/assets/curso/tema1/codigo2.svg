@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="713.906" height="628.631" viewBox="0 0 713.906 628.631">
+  <g id="Grupo_145696" data-name="Grupo 145696" transform="translate(-240.086 -3586.369)">
+    <g id="Grupo_145674" data-name="Grupo 145674" transform="translate(-93.338 3387.043)">
+      <path id="Trazado_183947" data-name="Trazado 183947" d="M333.638,184.776V702.864c0,9.009-1.714,17.679,4.562,17.679l704.629-1.182c6.273,0,4.158-7.487,4.158-16.5V184.776Z" transform="translate(0 100.914)"/>
+      <path id="Trazado_189260" data-name="Trazado 189260" d="M333.763,511.24h713.022" transform="translate(0 68)" fill="none" stroke="#fff" stroke-width="1"/>
+      <path id="Trazado_189275" data-name="Trazado 189275" d="M5.509,0H708.4c3.043,0,5.509.257,5.509.575v85.85c0,.317-2.467.575-5.509.575H5.509C2.467,87,0,86.742,0,86.425V.575C0,.257,2.467,0,5.509,0Z" transform="translate(333.424 199.326)" fill="#ffa726"/>
+      <rect id="Rectángulo_42586" data-name="Rectángulo 42586" width="20.793" height="640.712" rx="5.408" transform="translate(1010.733 235.656) rotate(90)" fill="#fff"/>
+      <path id="Trazado_189276" data-name="Trazado 189276" d="M367.722,160.108a5.648,5.648,0,1,1-5.647-5.649A5.648,5.648,0,0,1,367.722,160.108Z" transform="translate(34.766 58.223)" fill="#fff"/>
+      <path id="Trazado_189277" data-name="Trazado 189277" d="M367.722,160.108a5.648,5.648,0,1,1-5.647-5.649A5.648,5.648,0,0,1,367.722,160.108Z" transform="translate(12.219 58.223)" fill="#12263f"/>
+      <path id="Trazado_189278" data-name="Trazado 189278" d="M377.538,160.108a5.649,5.649,0,1,1-5.649-5.649A5.65,5.65,0,0,1,377.538,160.108Z" transform="translate(47.5 58.223)" fill="#26a69a"/>
+    </g>
+    <text id="_creación_del_session_factory_SessionFactory_factory_new_Configuration_.configure_hibernate.cfg.xml_.addAnnotatedClass_Usuario.class_.buildSes" data-name="// creación del session factory
+        SessionFactory factory = new Configuration()
+                                .configure(“hibernate.cfg.xml”)
+                                .addAnnotatedClass(Usuario.class)
+                                .buildSes" transform="translate(279 3704)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">// creación del session factory</tspan><tspan x="0" y="41" xml:space="preserve">        SessionFactory factory = new Configuration()</tspan><tspan x="0" y="65" xml:space="preserve">                                .configure(“hibernate.cfg.xml”)</tspan><tspan x="0" y="89" xml:space="preserve">                                .addAnnotatedClass(Usuario.class)</tspan><tspan x="0" y="113" xml:space="preserve">                                .buildSessionFactory();</tspan><tspan x="0" y="137" xml:space="preserve">        </tspan><tspan x="0" y="161" xml:space="preserve">        // creación de la session a partir del Session factory</tspan><tspan x="0" y="185" xml:space="preserve">        Session session = factory.getCurrentSession();</tspan><tspan x="0" y="209" xml:space="preserve">        </tspan><tspan x="0" y="233" xml:space="preserve">        try {           </tspan><tspan x="0" y="257"></tspan></text>
+    <text id="_Ahora_se_puede_usar_el_objeto_session_para_la_manipulación_de_la_BD_finally_Se_cierra_el_objeto_session_factory_una_vez_se_deja_de_utilizar_factory.close_" data-name="            
+            // Ahora se puede usar el objeto session para la manipulación de la BD
+        }
+        finally {
+            
+            // Se cierra el objeto session factory una vez se deja de utilizar
+            factory.close();
+        }
+ " transform="translate(279 3978)" fill="#fff" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17" xml:space="preserve">            </tspan><tspan x="0" y="41" xml:space="preserve">            // Ahora se puede usar el objeto session para la manipulación de la BD</tspan><tspan x="0" y="65" xml:space="preserve">        }</tspan><tspan x="0" y="89" xml:space="preserve">        finally {</tspan><tspan x="0" y="113" xml:space="preserve">            </tspan><tspan x="0" y="137" xml:space="preserve">            // Se cierra el objeto session factory una vez se deja de utilizar</tspan><tspan x="0" y="161" xml:space="preserve">            factory.close();</tspan><tspan x="0" y="185" xml:space="preserve">        }</tspan><tspan x="0" y="209" xml:space="preserve">    }</tspan><tspan x="0" y="233"></tspan></text>
+  </g>
+</svg>

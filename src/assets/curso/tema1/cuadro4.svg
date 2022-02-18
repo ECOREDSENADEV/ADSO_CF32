@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1277.184" height="425.754" viewBox="0 0 1277.184 425.754">
+  <defs>
+    <filter id="Rectángulo_42524" x="0" y="0.002" width="382.894" height="425.754" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_42524-2" x="894.29" y="30.002" width="382.894" height="365.145" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.25" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#a7b3cf"/>
+    </linearGradient>
+    <filter id="Rectángulo_42530" x="381.541" y="110.9" width="261.492" height="54.805" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_42526" x="381.395" y="151.904" width="261.492" height="91.947" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_42525" x="381.541" y="230.053" width="261.492" height="54.805" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_42530-2" x="634.297" y="110.9" width="261.492" height="54.805" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_42526-2" x="634.152" y="151.904" width="261.492" height="91.947" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_42525-2" x="634.297" y="230.053" width="261.492" height="54.805" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_145780" data-name="Grupo 145780" transform="translate(-269 -6260.188)">
+    <g id="Grupo_145684" data-name="Grupo 145684" transform="translate(278 6266.188)">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectángulo_42524)">
+        <g id="Rectángulo_42524-3" data-name="Rectángulo 42524" transform="translate(9 6)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="364.894" height="407.753" stroke="none"/>
+          <rect x="0.5" y="0.5" width="363.894" height="406.753" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_42598" data-name="Rectángulo 42598" width="287.64" height="23" transform="translate(25.098 331.621)" fill="#ffca28"/>
+      <rect id="Rectángulo_42599" data-name="Rectángulo 42599" width="264" height="23" transform="translate(25.098 357.621)" fill="#ffca28"/>
+      <text id="_Entity_Table_name_usuario_public_class_Usuario_Id_GeneratedValue_strategy_GenerationType.IDENTITY_Column_name_userid_private_int_userId_Column_name_username_private_String_userName_Column_name_userpassword_private_String_" data-name="@Entity
+@Table(name = “usuario”)
+public class Usuario {
+
+@Id
+@GeneratedValue(strategy =
+GenerationType.IDENTITY)
+@Column(name = “userid”)
+private int userId;
+@Column(name = “username”)
+private String userName;
+@Column(name = “userpassword”)
+private String " transform="translate(29.738 37.898)" fill="#707070" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">@Entity</tspan><tspan x="0" y="24">@Table</tspan><tspan y="24" fill="#12263f">(name = </tspan><tspan y="24" fill="#1565c0">“usuario”</tspan><tspan y="24" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="48">public class</tspan><tspan y="48" fill="#12263f"> </tspan><tspan y="48" fill="#12263f" font-family="Roboto-Bold, Roboto" font-weight="700">Usuario</tspan><tspan y="48" xml:space="preserve" fill="#12263f"> {</tspan></tspan><tspan fill="#12263f"><tspan x="0" y="72"></tspan></tspan><tspan x="0" y="96">@Id</tspan><tspan x="0" y="120">@GeneratedValue</tspan><tspan y="120" fill="#12263f">(strategy =</tspan><tspan fill="#12263f"><tspan x="0" y="144">GenerationType.</tspan><tspan y="144" fill="#1565c0" font-family="Roboto-Italic, Roboto" font-style="italic">IDENTITY</tspan><tspan y="144">)</tspan></tspan><tspan x="0" y="168">@Column</tspan><tspan y="168" fill="#12263f">(name = </tspan><tspan y="168" fill="#1565c0">“userid”</tspan><tspan y="168" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="192">private int</tspan><tspan y="192" fill="#12263f"> </tspan><tspan y="192" fill="#1565c0">userId</tspan><tspan y="192" fill="#12263f">;</tspan></tspan><tspan x="0" y="216">@Column</tspan><tspan y="216" fill="#12263f">(name = </tspan><tspan y="216" fill="#1565c0">“username”</tspan><tspan y="216" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="240">private</tspan><tspan y="240" xml:space="preserve" fill="#12263f"> String</tspan><tspan y="240" xml:space="preserve" fill="#1565c0"> userName</tspan><tspan y="240" fill="#12263f">;</tspan></tspan><tspan x="0" y="264">@Column</tspan><tspan y="264" fill="#12263f">(name = </tspan><tspan y="264" fill="#1565c0">“userpassword”</tspan><tspan y="264" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="288">private</tspan><tspan y="288" xml:space="preserve" fill="#12263f"> String </tspan><tspan y="288" fill="#1565c0">userPassword</tspan><tspan y="288" fill="#12263f">;</tspan></tspan><tspan fill="#12263f" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="312">@OneToMany(mappedBy = “user”)</tspan><tspan x="0" y="336">Private List&lt;Recurso&gt; recursos;</tspan><tspan x="0" y="360"></tspan></tspan></text>
+    </g>
+    <g id="Grupo_145768" data-name="Grupo 145768" transform="translate(1172.29 6266.188)">
+      <g transform="matrix(1, 0, 0, 1, -903.29, -6)" filter="url(#Rectángulo_42524-2)">
+        <g id="Rectángulo_42524-4" data-name="Rectángulo 42524" transform="translate(903.29 36)" fill="#fff" stroke="#707070" stroke-width="1">
+          <rect width="364.894" height="347.144" stroke="none"/>
+          <rect x="0.5" y="0.5" width="363.894" height="346.144" fill="none"/>
+        </g>
+      </g>
+      <rect id="Rectángulo_42605" data-name="Rectángulo 42605" width="128.64" height="23" transform="translate(26.098 314.621)" fill="#ffca28"/>
+      <rect id="Rectángulo_42606" data-name="Rectángulo 42606" width="172.64" height="23" transform="translate(26.098 340.621)" fill="#ffca28"/>
+      <text id="_Entity_Table_name_recurso_public_class_Recurso_Id_GeneratedValue_strategy_GenerationType.IDENTITY_Column_name_resourceid_private_int_resourceId_Column_name_resourcename_private_String_resourceName_ManyToOne_Private_Usuario_us" data-name="@Entity
+@Table(name = “recurso”)
+public class Recurso {
+
+@Id
+@GeneratedValue(strategy = 
+GenerationType.IDENTITY)
+@Column(name = “resourceid”)
+private int resourceId;
+@Column(name = “resourcename”)
+private String resourceName;
+@ManyToOne
+Private Usuario us" transform="translate(29.738 67.898)" fill="#707070" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">@Entity</tspan><tspan x="0" y="24">@Table</tspan><tspan y="24" fill="#12263f">(name =</tspan><tspan y="24"> </tspan><tspan y="24" fill="#1565c0">“recurso”</tspan><tspan y="24">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="48">public class</tspan><tspan y="48" fill="#707070"> </tspan><tspan y="48" fill="#12263f" font-family="Roboto-Bold, Roboto" font-weight="700">Recurso</tspan><tspan y="48" fill="#707070"> </tspan><tspan y="48" fill="#12263f">{</tspan></tspan><tspan x="0" y="72"></tspan><tspan x="0" y="96">@Id</tspan><tspan x="0" y="120">@GeneratedValue</tspan><tspan y="120" fill="#12263f">(strategy = </tspan><tspan fill="#12263f"><tspan x="0" y="144">GenerationType.</tspan><tspan y="144" fill="#1565c0" font-family="Roboto-Italic, Roboto" font-style="italic">IDENTITY</tspan><tspan y="144">)</tspan></tspan><tspan x="0" y="168">@Column</tspan><tspan y="168" fill="#12263f">(name =</tspan><tspan y="168"> </tspan><tspan y="168" fill="#1565c0">“resourceid”</tspan><tspan y="168" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="192">private int</tspan><tspan y="192" fill="#707070"> </tspan><tspan y="192" fill="#1565c0">resourceId</tspan><tspan y="192" fill="#12263f">;</tspan></tspan><tspan x="0" y="216">@Column(</tspan><tspan y="216" fill="#12263f">name =</tspan><tspan y="216"> </tspan><tspan y="216" fill="#1565c0">“resourcename”</tspan><tspan y="216" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="240">private</tspan><tspan y="240" fill="#707070"> </tspan><tspan y="240" fill="#12263f">String</tspan><tspan y="240" fill="#707070"> </tspan><tspan y="240" fill="#1565c0">resourceName;</tspan></tspan><tspan fill="#12263f" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="264">@ManyToOne</tspan><tspan x="0" y="288">Private Usuario user;</tspan></tspan><tspan fill="#1565c0"><tspan x="0" y="312"></tspan><tspan x="0" y="336"></tspan></tspan></text>
+    </g>
+    <g id="Grupo_145692" data-name="Grupo 145692" transform="translate(659.395 6377.088)">
+      <g transform="matrix(1, 0, 0, 1, -390.39, -116.9)" filter="url(#Rectángulo_42530)">
+        <g id="Rectángulo_42530-3" data-name="Rectángulo 42530" transform="translate(390.54 116.9)" stroke="#12263f" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="243.492" height="36.804" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242.492" height="35.804" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -390.39, -116.9)" filter="url(#Rectángulo_42526)">
+        <g id="Rectángulo_42526-3" data-name="Rectángulo 42526" transform="translate(390.4 157.9)" fill="#fff" stroke="#12263f" stroke-width="1">
+          <rect width="243.492" height="73.948" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242.492" height="72.948" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -390.39, -116.9)" filter="url(#Rectángulo_42525)">
+        <g id="Rectángulo_42525-3" data-name="Rectángulo 42525" transform="translate(390.54 236.05)" stroke="#12263f" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="243.492" height="36.804" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242.492" height="35.804" fill="none"/>
+        </g>
+      </g>
+      <text id="Indexes" transform="translate(19.348 139.144)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Indexes</tspan></text>
+      <text id="userid_INT_usernname_VARCHAR_50_userpassword_VARCHAR_50_" data-name="userid INT
+usernname VARCHAR (50)
+userpassword  VARCHAR (50)" transform="translate(19.348 63.12)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">userid INT</tspan><tspan x="0" y="20">usernname VARCHAR (50)</tspan><tspan x="0" y="40" xml:space="preserve">userpassword  VARCHAR (50)</tspan></text>
+      <text id="usuario" transform="translate(53.02 22.116)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">usuario</tspan></text>
+      <g id="_3zWyRC" data-name="3zWyRC" transform="translate(19.348 7.443)">
+        <g id="Grupo_145680" data-name="Grupo 145680" transform="translate(0 0)">
+          <path id="Trazado_189262" data-name="Trazado 189262" d="M112.768,354.418h-8.163a.815.815,0,0,1-.793-.79q0-7.37,0-14.74a.839.839,0,0,1,.777-.784h16.444a.854.854,0,0,1,.736.736q0,7.412,0,14.825a.838.838,0,0,1-.753.75Zm-7.3-11.4v9.745h14.644v-9.745Zm-.009-1.662h14.655v-1.6H105.461Z" transform="translate(-103.813 -331.575)" fill="#12263f"/>
+          <path id="Trazado_189263" data-name="Trazado 189263" d="M204.932,239.241v-1.624h1.594v-9.779H190.275a1.061,1.061,0,0,1-.041-.2c.006-1.274.023-2.549.02-3.823a1,1,0,0,1,.42-.821.434.434,0,0,1,.257-.073q8.272,0,16.543,0a.9.9,0,0,1,.7.709q0,7.452,0,14.9a.767.767,0,0,1-.623.659,7.971,7.971,0,0,1-.96.047C206.05,239.246,205.5,239.241,204.932,239.241Zm1.6-14.665H191.879v1.59H206.53Z" transform="translate(-185.335 -222.918)" fill="#12263f"/>
+        </g>
+      </g>
+      <g id="aBAlcI" transform="translate(8.95 54.488)">
+        <g id="Grupo_145681" data-name="Grupo 145681" transform="translate(0 0)">
+          <path id="Trazado_189264" data-name="Trazado 189264" d="M-77.451,113.007c0,.46.006.9,0,1.348q-.029,1.8-.068,3.595a.287.287,0,0,1-.037.136c-.105.176-.215.35-.326.522-.07.109-.115.122-.23.051-.152-.095-.3-.2-.444-.3-.175-.128-.346-.261-.515-.395a.9.9,0,0,1-.3-.783.429.429,0,0,1,.1-.219c.1-.132.207-.254.317-.387a3.926,3.926,0,0,0-.374-.369.976.976,0,0,1-.312-.869h.675c-.011-.159-.018-.3-.032-.444,0-.02-.034-.037-.051-.056q-.206-.243-.411-.487a.237.237,0,0,1-.016-.291.7.7,0,0,1,.111-.167.646.646,0,0,0,.167-.545c-.013-.273-.01-.272-.28-.277-.112,0-.223-.009-.335-.02a.249.249,0,0,1-.236-.346c.054-.173.134-.338.2-.506.023-.054.05-.106.079-.165a3,3,0,0,1-.815-.6,2.634,2.634,0,0,1,.3-3.931,2.877,2.877,0,0,1,4.453,1.225,2.667,2.667,0,0,1-1.213,3.2l-.106.061c.126.139.254.265.364.405a.338.338,0,0,1-.233.583C-77.146,113-77.281,113-77.451,113.007Zm-.592,5.477c.109-.176.205-.326.3-.48a.252.252,0,0,0,.024-.118c.009-.381.015-.761.022-1.142q.036-1.853.072-3.707c0-.166.029-.2.192-.232.091-.016.188,0,.278-.019s.211-.036.255-.1c.063-.089-.035-.178-.1-.249a1.316,1.316,0,0,0-.622-.451c.164-.08.31-.143.449-.22a2.447,2.447,0,0,0,.788-3.645,2.7,2.7,0,0,0-3.465-.661,2.431,2.431,0,0,0-1.2,2.675,2.464,2.464,0,0,0,1.46,1.744l.106.05c-.12.257-.238.5-.347.75-.057.131-.037.161.1.168.193.01.388.015.581.012.078,0,.108.027.114.1.013.156.032.312.041.468a.683.683,0,0,1-.181.555.452.452,0,0,0-.1.147.15.15,0,0,0,.006.127c.143.166.294.324.442.485a.105.105,0,0,1,.033.053c.014.24.025.481.037.739h-.66a.53.53,0,0,0,.169.459c.147.126.282.267.416.407.119.124.121.2.016.334-.068.089-.149.167-.217.256-.051.067-.128.142-.129.215a.67.67,0,0,0,.214.587C-78.658,118.024-78.355,118.247-78.042,118.484Z" transform="translate(81.324 -106.893)" fill="#ffa726" stroke="#ffa726" stroke-width="0.8"/>
+          <path id="Trazado_189266" data-name="Trazado 189266" d="M19.469,146.16a.688.688,0,1,1-.019,1.374.688.688,0,1,1,.019-1.374Zm0,1.219a.541.541,0,0,0,.554-.537.547.547,0,0,0-.562-.531.535.535,0,1,0,.008,1.068Z" transform="translate(-16.502 -145.28)" fill="#ffa726" stroke="#ffa726" stroke-width="0.8"/>
+        </g>
+      </g>
+      <g id="Rectángulo_42527" data-name="Rectángulo 42527" transform="translate(8.95 79.111) rotate(-45)" fill="#039be5" stroke="#12263f" stroke-width="1">
+        <rect width="5.123" height="5.123" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4.123" height="4.123" fill="none"/>
+      </g>
+      <g id="Rectángulo_42528" data-name="Rectángulo 42528" transform="translate(8.95 97.683) rotate(-45)" fill="#039be5" stroke="#12263f" stroke-width="1">
+        <rect width="5.123" height="5.123" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4.123" height="4.123" fill="none"/>
+      </g>
+    </g>
+    <g id="Grupo_145767" data-name="Grupo 145767" transform="translate(912.151 6377.088)">
+      <g transform="matrix(1, 0, 0, 1, -643.15, -116.9)" filter="url(#Rectángulo_42530-2)">
+        <g id="Rectángulo_42530-4" data-name="Rectángulo 42530" transform="translate(643.3 116.9)" stroke="#12263f" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="243.492" height="36.804" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242.492" height="35.804" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -643.15, -116.9)" filter="url(#Rectángulo_42526-2)">
+        <g id="Rectángulo_42526-4" data-name="Rectángulo 42526" transform="translate(643.15 157.9)" fill="#fff" stroke="#12263f" stroke-width="1">
+          <rect width="243.492" height="73.948" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242.492" height="72.948" fill="none"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -643.15, -116.9)" filter="url(#Rectángulo_42525-2)">
+        <g id="Rectángulo_42525-4" data-name="Rectángulo 42525" transform="translate(643.3 236.05)" stroke="#12263f" stroke-width="1" fill="url(#linear-gradient)">
+          <rect width="243.492" height="36.804" stroke="none"/>
+          <rect x="0.5" y="0.5" width="242.492" height="35.804" fill="none"/>
+        </g>
+      </g>
+      <text id="Indexes-2" data-name="Indexes" transform="translate(19.348 139.144)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Indexes</tspan></text>
+      <text id="recurso" transform="translate(53.02 22.116)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">recurso</tspan></text>
+      <g id="_3zWyRC-2" data-name="3zWyRC" transform="translate(19.348 7.443)">
+        <g id="Grupo_145680-2" data-name="Grupo 145680" transform="translate(0 0)">
+          <path id="Trazado_189262-2" data-name="Trazado 189262" d="M112.768,354.418h-8.163a.815.815,0,0,1-.793-.79q0-7.37,0-14.74a.839.839,0,0,1,.777-.784h16.444a.854.854,0,0,1,.736.736q0,7.412,0,14.825a.838.838,0,0,1-.753.75Zm-7.3-11.4v9.745h14.644v-9.745Zm-.009-1.662h14.655v-1.6H105.461Z" transform="translate(-103.813 -331.575)" fill="#12263f"/>
+          <path id="Trazado_189263-2" data-name="Trazado 189263" d="M204.932,239.241v-1.624h1.594v-9.779H190.275a1.061,1.061,0,0,1-.041-.2c.006-1.274.023-2.549.02-3.823a1,1,0,0,1,.42-.821.434.434,0,0,1,.257-.073q8.272,0,16.543,0a.9.9,0,0,1,.7.709q0,7.452,0,14.9a.767.767,0,0,1-.623.659,7.971,7.971,0,0,1-.96.047C206.05,239.246,205.5,239.241,204.932,239.241Zm1.6-14.665H191.879v1.59H206.53Z" transform="translate(-185.335 -222.918)" fill="#12263f"/>
+        </g>
+      </g>
+      <g id="aBAlcI-2" data-name="aBAlcI" transform="translate(8.95 55.488)">
+        <g id="Grupo_145681-2" data-name="Grupo 145681" transform="translate(0 0)">
+          <path id="Trazado_189264-2" data-name="Trazado 189264" d="M-77.451,113.007c0,.46.006.9,0,1.348q-.029,1.8-.068,3.595a.287.287,0,0,1-.037.136c-.105.176-.215.35-.326.522-.07.109-.115.122-.23.051-.152-.095-.3-.2-.444-.3-.175-.128-.346-.261-.515-.395a.9.9,0,0,1-.3-.783.429.429,0,0,1,.1-.219c.1-.132.207-.254.317-.387a3.926,3.926,0,0,0-.374-.369.976.976,0,0,1-.312-.869h.675c-.011-.159-.018-.3-.032-.444,0-.02-.034-.037-.051-.056q-.206-.243-.411-.487a.237.237,0,0,1-.016-.291.7.7,0,0,1,.111-.167.646.646,0,0,0,.167-.545c-.013-.273-.01-.272-.28-.277-.112,0-.223-.009-.335-.02a.249.249,0,0,1-.236-.346c.054-.173.134-.338.2-.506.023-.054.05-.106.079-.165a3,3,0,0,1-.815-.6,2.634,2.634,0,0,1,.3-3.931,2.877,2.877,0,0,1,4.453,1.225,2.667,2.667,0,0,1-1.213,3.2l-.106.061c.126.139.254.265.364.405a.338.338,0,0,1-.233.583C-77.146,113-77.281,113-77.451,113.007Zm-.592,5.477c.109-.176.205-.326.3-.48a.252.252,0,0,0,.024-.118c.009-.381.015-.761.022-1.142q.036-1.853.072-3.707c0-.166.029-.2.192-.232.091-.016.188,0,.278-.019s.211-.036.255-.1c.063-.089-.035-.178-.1-.249a1.316,1.316,0,0,0-.622-.451c.164-.08.31-.143.449-.22a2.447,2.447,0,0,0,.788-3.645,2.7,2.7,0,0,0-3.465-.661,2.431,2.431,0,0,0-1.2,2.675,2.464,2.464,0,0,0,1.46,1.744l.106.05c-.12.257-.238.5-.347.75-.057.131-.037.161.1.168.193.01.388.015.581.012.078,0,.108.027.114.1.013.156.032.312.041.468a.683.683,0,0,1-.181.555.452.452,0,0,0-.1.147.15.15,0,0,0,.006.127c.143.166.294.324.442.485a.105.105,0,0,1,.033.053c.014.24.025.481.037.739h-.66a.53.53,0,0,0,.169.459c.147.126.282.267.416.407.119.124.121.2.016.334-.068.089-.149.167-.217.256-.051.067-.128.142-.129.215a.67.67,0,0,0,.214.587C-78.658,118.024-78.355,118.247-78.042,118.484Z" transform="translate(81.324 -106.893)" fill="#ffa726" stroke="#ffa726" stroke-width="0.8"/>
+          <path id="Trazado_189266-2" data-name="Trazado 189266" d="M19.469,146.16a.688.688,0,1,1-.019,1.374.688.688,0,1,1,.019-1.374Zm0,1.219a.541.541,0,0,0,.554-.537.547.547,0,0,0-.562-.531.535.535,0,1,0,.008,1.068Z" transform="translate(-16.502 -145.28)" fill="#ffa726" stroke="#ffa726" stroke-width="0.8"/>
+        </g>
+      </g>
+      <g id="Rectángulo_42527-2" data-name="Rectángulo 42527" transform="translate(8.95 80.111) rotate(-45)" fill="#039be5" stroke="#12263f" stroke-width="1">
+        <rect width="5.123" height="5.123" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4.123" height="4.123" fill="none"/>
+      </g>
+      <g id="Rectángulo_42604" data-name="Rectángulo 42604" transform="translate(8.95 99.273) rotate(-45)" fill="#039be5" stroke="#12263f" stroke-width="1">
+        <rect width="5.123" height="5.123" stroke="none"/>
+        <rect x="0.5" y="0.5" width="4.123" height="4.123" fill="none"/>
+      </g>
+      <rect id="Rectángulo_42600" data-name="Rectángulo 42600" width="76" height="19" transform="translate(15.947 89.773)" fill="#ffca28"/>
+      <text id="resourceid_INT_resorucenname_VARCHAR_50_userId_INT_" data-name="resourceid INT
+resorucenname VARCHAR (50)
+userId INT
+" transform="translate(19.348 64.12)" fill="#12263f" font-size="14" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">resourceid INT</tspan><tspan x="0" y="20">resorucenname VARCHAR (50)</tspan><tspan x="0" y="40">userId INT</tspan><tspan x="0" y="60"></tspan></text>
+    </g>
+    <path id="Polígono_54" data-name="Polígono 54" d="M5,0l5,8H0Z" transform="translate(918.098 6472.488) rotate(90)" fill="red"/>
+    <path id="Polígono_55" data-name="Polígono 55" d="M5,0l5,8H0Z" transform="translate(750.393 6428.113) rotate(30)" fill="red"/>
+    <path id="Trazado_189314" data-name="Trazado 189314" d="M748.723,6435.077H894.1v42.411H914.52" fill="none" stroke="red" stroke-width="2"/>
+  </g>
+</svg>
