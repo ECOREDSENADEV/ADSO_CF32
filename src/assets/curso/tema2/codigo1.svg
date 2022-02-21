@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="647.5" height="212.521" viewBox="0 0 647.5 212.521">
+  <g id="Grupo_146138" data-name="Grupo 146138" transform="translate(-1006.5 -16107.479)">
+    <g id="Grupo_145947" data-name="Grupo 145947" transform="translate(248 -23.761)">
+      <rect id="Rectángulo_42758" data-name="Rectángulo 42758" width="647.5" height="212.521" transform="translate(758.5 16131.239)" fill="#fafafa"/>
+      <g id="Grupo_145946" data-name="Grupo 145946" transform="translate(758.5 16131.538)">
+        <g id="Grupo_55534" data-name="Grupo 55534" transform="translate(0)">
+          <g id="Grupo_55533" data-name="Grupo 55533">
+            <path id="Trazado_117354" data-name="Trazado 117354" d="M873.658,298.73c0-2.034-.2-82.434-.5-211.322l.5.249-646.318.065h-.053l.631-.315c-.019,75.152-.036,146.671-.053,211.322l-.578-.288,646.371.288-646.371.288h-.578v-.288c-.014-64.651-.031-136.17-.051-211.322v-.313h.682l646.318.064h.5v.25C873.852,216.3,873.663,296.7,873.658,298.73Z" transform="translate(-226.659 -87.094)" fill="#263238"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_146137" data-name="Grupo 146137" transform="translate(223 1.924)">
+      <g id="Grupo_145945" data-name="Grupo 145945" transform="translate(-66.5 -66.423)">
+        <text id="import_org.springframework.data.repository.CrudRepository_import_com.example.model.Persona_public_interface_PersonaDaoAPI_extends_CrudRepository_Persona_Long_" data-name="import org.springframework.data.repository.CrudRepository;
+import com.example.model.Persona;
+public interface PersonaDaoAPI extends CrudRepository&lt;Persona, Long {" transform="translate(882.5 16218.662)" fill="#5d3b3b" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">import </tspan><tspan y="0" fill="#12263f">org.springframework.data.repository.CrudRepository;</tspan><tspan x="0" y="24">import</tspan><tspan y="24" xml:space="preserve" fill="#12263f"> com.example.model.Persona;</tspan><tspan x="0" y="48">public interface</tspan><tspan y="48" xml:space="preserve" fill="#12263f"> PersonaDaoAPI </tspan><tspan y="48">extends </tspan><tspan y="48" fill="#12263f">CrudRepository&lt;Persona, Long {</tspan></text>
+        <text id="_" data-name="}" transform="translate(882.5 16359.662)" fill="#707070" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">}</tspan></text>
+        <text id="Persona_findByNombre_String_nombre_Persona_findByApellido_String_apellido_" data-name="Persona findByNombre(String nombre);
+Persona findByApellido(String apellido);
+" transform="translate(970.5 16301.662)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Persona findByNombre(String</tspan><tspan y="0" xml:space="preserve" fill="#707070"> nombre</tspan><tspan y="0">);</tspan><tspan x="0" y="24">Persona findByApellido(String </tspan><tspan y="24" fill="#707070">apellido</tspan><tspan y="24">);</tspan><tspan x="0" y="48"></tspan></text>
+        <g id="Rectángulo_42756" data-name="Rectángulo 42756" transform="translate(877.5 16252.662)" fill="none" stroke="red" stroke-width="2">
+          <rect width="571" height="24" stroke="none"/>
+          <rect x="1" y="1" width="569" height="22" fill="none"/>
+        </g>
+        <g id="Rectángulo_42757" data-name="Rectángulo 42757" transform="translate(956.5 16311.662)" fill="none" stroke="red" stroke-width="2">
+          <rect width="333" height="23" stroke="none"/>
+          <rect x="1" y="1" width="331" height="21" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="698.712" height="307.568" viewBox="0 0 698.712 307.568">
+  <g id="Grupo_146032" data-name="Grupo 146032" transform="translate(-240.086 -3586.369)">
+    <g id="Grupo_145674" data-name="Grupo 145674" transform="translate(240.086 3586.369)">
+      <path id="Trazado_183947" data-name="Trazado 183947" d="M333.634,184.776V400.459c0,3.751-1.677,7.36,4.465,7.36l689.632-.492c6.14,0,4.07-3.117,4.07-6.868V184.776Z" transform="translate(-333.424 -100.25)"/>
+      <path id="Trazado_189275" data-name="Trazado 189275" d="M5.392,0H693.319c2.978,0,5.392.252,5.392.562V84.586c0,.311-2.414.562-5.392.562H5.392C2.414,85.148,0,84.9,0,84.586V.562C0,.252,2.414,0,5.392,0Z" transform="translate(0 0)" fill="#ffa726"/>
+      <rect id="Rectángulo_42586" data-name="Rectángulo 42586" width="20.35" height="627.076" rx="5.408" transform="translate(662.893 35.557) rotate(90)" fill="#fff"/>
+      <path id="Trazado_189276" data-name="Trazado 189276" d="M367.481,159.988a5.528,5.528,0,1,1-5.527-5.529A5.528,5.528,0,0,1,367.481,159.988Z" transform="translate(-299.888 -141.387)" fill="#fff"/>
+      <path id="Trazado_189277" data-name="Trazado 189277" d="M367.481,159.988a5.528,5.528,0,1,1-5.527-5.529A5.528,5.528,0,0,1,367.481,159.988Z" transform="translate(-321.955 -141.387)" fill="#12263f"/>
+      <path id="Trazado_189278" data-name="Trazado 189278" d="M377.3,159.988a5.529,5.529,0,1,1-5.529-5.529A5.529,5.529,0,0,1,377.3,159.988Z" transform="translate(-287.634 -141.387)" fill="#26a69a"/>
+    </g>
+    <text id="_Controller_public_class_userController_RequestMapping_usuario_public_void_create_RequestBody_Validated_Usuario_usuario_System.out.println_hola:_usuario.getNombreUsuario_" data-name="@Controller
+public class userController{
+	@RequestMapping(“/usuario”)
+    public void create (@RequestBody @Validated Usuario usuario) {
+        System.out.println(“hola:” + usuario.getNombreUsuario());
+    }
+ } 
+" transform="translate(278.172 3701.496)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="19">@Controller</tspan><tspan x="0" y="43">public class userController{</tspan><tspan x="0" y="67" xml:space="preserve">	@RequestMapping(“/usuario”)</tspan><tspan x="0" y="91" xml:space="preserve">    public void create (@RequestBody @Validated Usuario usuario) {</tspan><tspan x="0" y="115" xml:space="preserve">        System.out.println(“hola:” + usuario.getNombreUsuario());</tspan><tspan x="0" y="139" xml:space="preserve">    }</tspan><tspan x="0" y="163" xml:space="preserve"> } </tspan><tspan x="0" y="187"></tspan></text>
+  </g>
+</svg>

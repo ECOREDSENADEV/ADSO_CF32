@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="736" height="277.484" viewBox="0 0 736 277.484">
+  <g id="Grupo_146029" data-name="Grupo 146029" transform="translate(-240.086 -3586.369)">
+    <g id="Grupo_145674" data-name="Grupo 145674" transform="translate(240.086 3586.369)">
+      <path id="Trazado_183947" data-name="Trazado 183947" d="M333.645,184.776V367.007c0,3.169-1.767,6.218,4.7,6.218l726.435-.416c6.468,0,4.287-2.634,4.287-5.8V184.776Z" transform="translate(-333.424 -95.739)"/>
+      <path id="Trazado_189275" data-name="Trazado 189275" d="M5.68,0H730.32c3.137,0,5.68.265,5.68.592V89.1c0,.327-2.543.592-5.68.592H5.68C2.543,89.692,0,89.427,0,89.1V.592C0,.265,2.543,0,5.68,0Z" transform="translate(0 0)" fill="#ffa726"/>
+      <rect id="Rectángulo_42586" data-name="Rectángulo 42586" width="21.436" height="660.541" rx="5.408" transform="translate(698.27 37.454) rotate(90)" fill="#fff"/>
+      <path id="Trazado_189276" data-name="Trazado 189276" d="M368.071,160.283a5.823,5.823,0,1,1-5.822-5.824A5.823,5.823,0,0,1,368.071,160.283Z" transform="translate(-296.871 -140.69)" fill="#fff"/>
+      <path id="Trazado_189277" data-name="Trazado 189277" d="M368.071,160.283a5.823,5.823,0,1,1-5.822-5.824A5.823,5.823,0,0,1,368.071,160.283Z" transform="translate(-320.116 -140.69)" fill="#12263f"/>
+      <path id="Trazado_189278" data-name="Trazado 189278" d="M377.887,160.283a5.824,5.824,0,1,1-5.824-5.824A5.825,5.825,0,0,1,377.887,160.283Z" transform="translate(-283.439 -140.69)" fill="#26a69a"/>
+    </g>
+    <text id="_dependency_groupId_org.springframework.boot_groupId_artifactId_spring-boot-starter-web_artifactId_version_2.0.0.RELEASE_version_dependency_" data-name="&lt;dependency&gt;
+		&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+		&lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+		&lt;version&gt;2.0.0.RELEASE&lt;/version&gt;
+	&lt;/dependency&gt; " transform="translate(280.204 3707.64)" fill="#fff" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="19">&lt;dependency&gt;</tspan><tspan x="0" y="43" xml:space="preserve">		&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;</tspan><tspan x="0" y="67" xml:space="preserve">		&lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;</tspan><tspan x="0" y="91" xml:space="preserve">		&lt;version&gt;2.0.0.RELEASE&lt;/version&gt;</tspan><tspan x="0" y="115" xml:space="preserve">	&lt;/dependency&gt; </tspan></text>
+  </g>
+</svg>

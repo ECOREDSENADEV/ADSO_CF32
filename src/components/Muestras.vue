@@ -2172,17 +2172,17 @@ div
       p moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t 
         a.lnk(@click="modal1 = true") Abrir modal 
         |the height of your stature, it’s the heft of your spirit.
-  
-  ModalA(:abrir-modal.sync="modal1")
-    .row.align-items-center
-      .col-md-6.mb-4.mb-md-0
-        h4 Modal 1
-        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
     
-      .col-md-6
-        figure
-          img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-          figcaption Leyenda de la imagen
+    ModalA(:abrir-modal.sync="modal1")
+      .row.align-items-center
+        .col-md-6.mb-4.mb-md-0
+          h4 Modal 1
+          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      
+        .col-md-6
+          figure
+            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
+            figcaption Leyenda de la imagen
 
   Separador
 

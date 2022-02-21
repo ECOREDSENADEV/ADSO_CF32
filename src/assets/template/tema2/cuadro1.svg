@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460.506" height="365.196" viewBox="0 0 460.506 365.196">
+  <g id="Grupo_146136" data-name="Grupo 146136" transform="translate(5935 -4772.564)">
+    <g id="Grupo_145944" data-name="Grupo 145944" transform="translate(-6116 -11186)">
+      <rect id="Rectángulo_37371" data-name="Rectángulo 37371" width="460.506" height="365.197" transform="translate(181 15958.564)" fill="#fafafa"/>
+      <g id="Grupo_142629" data-name="Grupo 142629" transform="translate(181 15958.828)">
+        <g id="Grupo_55534" data-name="Grupo 55534" transform="translate(0)">
+          <g id="Grupo_55533" data-name="Grupo 55533">
+            <path id="Trazado_117354" data-name="Trazado 117354" d="M686.809,451.269c0-3.5-.139-141.849-.356-363.636l.356.429-459.665.112h-.038l.449-.541c-.014,129.319-.026,252.386-.038,363.636l-.411-.5c270.484.29,456.018.492,459.7.5l-459.7.5H226.7v-.5c-.01-111.25-.022-234.317-.036-363.636v-.539h.485c173.531.041,333.511.081,459.665.11h.356v.429C686.947,309.42,686.813,447.771,686.809,451.269Z" transform="translate(-226.659 -87.094)" fill="#263238"/>
+          </g>
+        </g>
+      </g>
+      <text id="_Entity_name_persona_public_class_Persona_" data-name="@Entity(name = “persona”)
+public class Persona  {" transform="translate(278.949 15996.987)" fill="#707070" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">@Entity</tspan><tspan y="0" fill="#12263f">(name =</tspan><tspan y="0"> </tspan><tspan y="0" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">“persona”</tspan><tspan y="0">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="20">public class</tspan><tspan y="20" fill="#707070"> </tspan><tspan y="20" xml:space="preserve" fill="#12263f">Persona  {</tspan></tspan></text>
+      <text id="_Column_name_id_private_Long_id_Column_name_persona_nombre_private_String_nombre_Column_name_persona_apellido_private_String_apellido_Column_name_persona_telefono_private_String_telefono_" data-name="@Column(name = “id”)
+private Long id;
+
+@Column(name = “persona_nombre”)
+private String nombre;
+
+@Column(name = “persona_apellido”)
+private String apellido;
+
+@Column(name = “persona_telefono”)
+private String telefono;" transform="translate(297.822 16059.269)" fill="#707070" font-size="13" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">@Column</tspan><tspan y="0" fill="#12263f">(name =</tspan><tspan y="0" xml:space="preserve" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700"> “id”</tspan><tspan y="0" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="20">private </tspan><tspan y="20" fill="#12263f">Long </tspan><tspan y="20" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">id</tspan><tspan y="20" fill="#12263f">;</tspan></tspan><tspan x="0" y="40"></tspan><tspan x="0" y="60">@Column</tspan><tspan y="60" fill="#12263f">(name = </tspan><tspan y="60" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">“persona_nombre”</tspan><tspan y="60" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="80">private</tspan><tspan y="80" xml:space="preserve" fill="#12263f"> String</tspan><tspan y="80" xml:space="preserve" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700"> nombre</tspan><tspan y="80" fill="#12263f">;</tspan></tspan><tspan x="0" y="100"></tspan><tspan x="0" y="120">@Column</tspan><tspan y="120" fill="#12263f">(name = </tspan><tspan y="120" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">“persona_apellido”</tspan><tspan y="120" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="140">private</tspan><tspan y="140" xml:space="preserve" fill="#12263f"> String </tspan><tspan y="140" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">apellido</tspan><tspan y="140" fill="#12263f">;</tspan></tspan><tspan fill="#12263f"><tspan x="0" y="160"></tspan></tspan><tspan x="0" y="180">@Column</tspan><tspan y="180" fill="#12263f">(name = </tspan><tspan y="180" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">“persona_telefono”</tspan><tspan y="180" fill="#12263f">)</tspan><tspan fill="#5d3b3b"><tspan x="0" y="200">private</tspan><tspan y="200" xml:space="preserve" fill="#12263f"> String </tspan><tspan y="200" fill="#1565c0" font-family="Roboto-Bold, Roboto" font-weight="700">telefono</tspan><tspan y="200" fill="#12263f">;</tspan></tspan></text>
+      <path id="Trazado_189490" data-name="Trazado 189490" d="M-4665.594,4845.993v330.384" transform="translate(4930.771 11133.494)" fill="none" stroke="#12263f" stroke-width="1"/>
+      <g id="Rectángulo_42748" data-name="Rectángulo 42748" transform="translate(256.493 15978.381)" fill="none" stroke="red" stroke-width="2">
+        <rect width="251.013" height="51.901" stroke="none"/>
+        <rect x="1" y="1" width="249.013" height="49.901" fill="none"/>
+      </g>
+      <g id="Rectángulo_42749" data-name="Rectángulo 42749" transform="translate(256.493 16042.55)" fill="none" stroke="red" stroke-width="2">
+        <rect width="251.013" height="51.901" stroke="none"/>
+        <rect x="1" y="1" width="249.013" height="49.901" fill="none"/>
+      </g>
+      <path id="Trazado_189491" data-name="Trazado 189491" d="M286.09,62.191a15.252,15.252,0,1,1-15.252-15.252A15.253,15.253,0,0,1,286.09,62.191Z" transform="translate(-39.937 15940.429)" fill="#ffa726"/>
+      <path id="Trazado_189492" data-name="Trazado 189492" d="M286.09,62.191a15.252,15.252,0,1,1-15.252-15.252A15.253,15.253,0,0,1,286.09,62.191Z" transform="translate(-39.937 16006.31)" fill="#ffa726"/>
+      <text id="_1" data-name="1" transform="translate(231 16009)" fill="#12263f" font-size="19" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-5.501" y="0">1</tspan></text>
+      <text id="_2" data-name="2" transform="translate(231 16074)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-5.212" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>

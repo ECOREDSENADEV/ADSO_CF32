@@ -8,7 +8,8 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-     // Muestras
+    //- Muestras
+
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 1
@@ -417,74 +418,116 @@
       .col-12
         img(src='@/assets/curso/tema1/cuadro2.svg')
       .col-12
-    //Tarjetas o pestañas??????
+    //-tarjetas botones
+    .row.mb-5
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0.mt-4
+        .tarjeta--boton.color-primario.p-4.bordePrimario.a.indicador__container(@click="modal1 = true")
+          .indicador--click(v-if="mostrarIndicador")
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/tema1/onetoone.svg', alt='Relaciones OneToOne')
 
-    .row.mb-5
-      .col-3
-        h3.mt-5.me-0.color-azulclaro.p-2.mb-0.text-center.text-white Relaciones OneToOne
-      .col-9
-    .row.mb-5
-      .col-4
-        img(src='@/assets/curso/tema1/imagen9.jpg')
-      .col-8
-        p.mt-4 En este tipo de relaciones queremos expresar un vínculo en el que un ejemplar de una tabla tiene relación con un y solo un ejemplar de una segunda tabla. Desde el punto de vista de las bases de datos se creará una relación de integridad referencial vinculando una llave primaria con una llave foránea. Tomando como consideración el modelo de datos presentado anteriormente supongamos que se desea indicar que un usuario tiene asociado un recurso. Para resolver este nuevo requerimiento debemos modificar la clase de entidad de usuario para agregar un nuevo atributo que haga referencia al objeto recurso con el cual está relacionado y agregar la anotación correspondiente llamada @OneToOne de forma que Hibernate haga el mapeo correcto.  El esquema se presenta a continuación en la siguiente figura:
-    .row.mb-5
-      .col-4
-      .col-4
-        h3.mt-5.me-0.color-azuloscuro.p-2.mb-0.text-center.text-white.Text-mediano @OneToOne
-      .col-4
-    .row.bgbits.mt-4
-      .col-12
-        img(src='@/assets/curso/tema1/cuadro3.svg')
-      .cajon.color-acento-botones.mb-4.p-3.mt-5
-        span.mb-0.mt-4 Mientras que en la base de datos se debe agregar un nuevo campo foráneo en la tabla usuario que haga referencia a la llave primaria de la tabla recurso para poder establecer la relación, en las clases de tipo entidad bastará con especificar el nuevo atributo del tipo de objeto correspondiente que referencia agregando de la anotación de tipo @OneToOne. Si el campo nuevo requerido en la tabla usuario no existe el mapeador de Hibernate se encargará de agregarlo.
-    .row.mb-5
-      .col-4
-        h3.mt-5.me-0.color-azulclaro.p-2.mb-0.text-center.text-white Relaciones OneToMany - ManyToOne
-      .col-8
-    .row.mb-4.bg-color-gris
-      .col-12.bgBlanco.mt-2.p-3
-        p Las relaciones OneToMany tiene la particularidad de afectar cada una de las entidades vinculadas en la relación y es importante identificar el lugar que es una relación OneToMany y en qué lugar la relación es ManyToOne. 
-      .row.mb-4
-        .col-7
-          p.mt-4 Recordando las reglas de transformación del modelo lógico de una base de datos relacional en este tipo de relaciones se indica que en la tabla del lado de la relación donde la cardinalidad máxima muchos (*) deberá ser transferido como un campo foráneo la llave primaria de la tabla donde la cardinalidad máxima es 1, como se aprecia en la siguiente figura:
-        .col-5
-          img.Neg-Top30.mb-5(src='@/assets/curso/tema1/imagen10.jpg')
-    .row.bgbits
-      .col-12
-        .row.mb-5
-          .col-5
-          .col-2
-            h3.mt-5.me-0.color-azuloscuro.p-2.mb-0.text-center.text-white.Text-mediano @OneToMany @ManyToOne
-          .col-5
-        img.Neg-Top30.mb-5(src='@/assets/curso/tema1/cuadro4.svg')
+          h3.text-center Relaciones OneToOne
+
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0.mt-4
+        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta--boton.color-primario.bordePrimario.p-4.a.indicador__container(@click="modal3 = true")
+          .indicador--click(v-if="mostrarIndicador")
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/tema1/manytoone.svg', alt='Relaciones OneToMany')
+
+          h3.text-center Relaciones OneToMany
+
+      .col-sm-6.col-lg-4.mb-4.mb-sm-0.mt-4
+        //- .tarjeta--boton debe ir acompañado de una de una de estas clases => 
+        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+        //- estas clases tambien tienen un modificador --borde
+        .tarjeta--boton.color-primario.bordePrimario.p-4.a.indicador__container(@click="modal4 = true")
+          .indicador--click(v-if="mostrarIndicador")
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/componentes/tema1/manytomany.svg', alt='Relación ManyToMany')
+
+            h3.text-center Relaciones ManyToMany
+
+    ModalA(:abrir-modal.sync="modal1")
+      .row.mb-5
+        .col-3
+          h3.mt-5.me-0.color-azulclaro.p-2.mb-0.text-center.text-white Relaciones OneToOne
+        .col-9
+      .row.mb-5
+        .col-4
+          img(src='@/assets/curso/tema1/imagen9.jpg')
+        .col-8
+          p.mt-4 En este tipo de relaciones queremos expresar un vínculo en el que un ejemplar de una tabla tiene relación con un y solo un ejemplar de una segunda tabla. Desde el punto de vista de las bases de datos se creará una relación de integridad referencial vinculando una llave primaria con una llave foránea. Tomando como consideración el modelo de datos presentado anteriormente supongamos que se desea indicar que un usuario tiene asociado un recurso. Para resolver este nuevo requerimiento debemos modificar la clase de entidad de usuario para agregar un nuevo atributo que haga referencia al objeto recurso con el cual está relacionado y agregar la anotación correspondiente llamada @OneToOne de forma que Hibernate haga el mapeo correcto.  El esquema se presenta a continuación en la siguiente figura:
+      .row.mb-5
+        .col-4
+        .col-4
+          h3.mt-5.me-0.color-azuloscuro.p-2.mb-0.text-center.text-white.Text-mediano @OneToOne
+        .col-4
+      .row.bgbits.mt-4
+        .col-12
+          img(src='@/assets/curso/tema1/cuadro3.svg')
         .cajon.color-acento-botones.mb-4.p-3.mt-5
+          span.mb-0.mt-4 Mientras que en la base de datos se debe agregar un nuevo campo foráneo en la tabla usuario que haga referencia a la llave primaria de la tabla recurso para poder establecer la relación, en las clases de tipo entidad bastará con especificar el nuevo atributo del tipo de objeto correspondiente que referencia agregando de la anotación de tipo @OneToOne. Si el campo nuevo requerido en la tabla usuario no existe el mapeador de Hibernate se encargará de agregarlo.
+
+    ModalA(:abrir-modal.sync="modal3")
+      .row.mb-5
+        .col-4
+          h3.mt-5.me-0.color-azulclaro.p-2.mb-0.text-center.text-white Relaciones OneToMany - ManyToOne
+        .col-8
+      .row.mb-4.bg-color-gris
+        .col-12.bgBlanco.mt-2.p-3
+          p Las relaciones OneToMany tiene la particularidad de afectar cada una de las entidades vinculadas en la relación y es importante identificar el lugar que es una relación OneToMany y en qué lugar la relación es ManyToOne. 
+        .row.mb-4
+          .col-7
+            p.mt-4 Recordando las reglas de transformación del modelo lógico de una base de datos relacional en este tipo de relaciones se indica que en la tabla del lado de la relación donde la cardinalidad máxima muchos (*) deberá ser transferido como un campo foráneo la llave primaria de la tabla donde la cardinalidad máxima es 1, como se aprecia en la siguiente figura:
+          .col-5
+            img.Neg-Top30.mb-5(src='@/assets/curso/tema1/imagen10.jpg')
+
+      .row.bgbits
+        .col-12
+          .row.mb-5
+            .col-5
+            .col-2
+              h3.mt-5.me-0.color-azuloscuro.p-2.mb-0.text-center.text-white.Text-mediano @OneToMany @ManyToOne
+            .col-5
+          img.Neg-Top30.mb-5(src='@/assets/curso/tema1/cuadro4.svg')
+          .cajon.color-acento-botones.mb-4.p-3.mt-5
+            .row
+              .col-3
+                img(src='@/assets/curso/tema1/grafica3.svg')
+              .col-9
+                span.mb-0.mt-4 Para el caso de las clases de entidad deberá especificarse en la clase donde la cardinalidad máxima es 1, un atributo del tipo lista de la clase de entidad con la que tiene un vínculo @OneToMany, este atributo será de tipo lista porque se está vinculando con varios. En el ejemplo, la entidad usuario se relaciona con varios recursos, es decir un usuario puede estar vinculado con múltiples recursos. Por otra parte, la clase de entidad donde la cardinalidad máxima es muchos deberá especificar un atributo de tipo objeto con la entidad vinculada agregándole la anotación @ManyToOne. En el ejemplo un recurso estará siempre vinculado con un único usuario. Es importante anexar en la entidad de cardinalidad @OneToMany el nombre del atributo en la entidad @ManyToOne que será usada para el mapeo de la asociación por parte de Hibernate. En el ejemplo se le indica en la entidad Usuario que la relación @OneToMany será mapeada usando el atributo user de la entidad @ManyToOne.
+
+    ModalA(:abrir-modal.sync="modal4")  
+      .row.mb-5
+        .col-4
+          h3.mt-5.me-0.color-azulclaro.p-2.mb-0.text-center.text-white Relaciones ManyToMany
+        .col-8
+      .row.mt-5.mb-5.bg-color-gris
+        .col-5
+            img(src='@/assets/curso/tema1/imagen11.jpg')
+        .col-7.mt-4
+          p.mt-4.mb-4.ms-4.text-small Las relaciones ManyToMany obligan a la construcción de una nueva entidad de mapeo en la cual se alojarán las respectivas llaves primarias de las entidades vinculadas por medio de la relación @ManyToMany. Para su correcta implementación deberán agregarse en cada una de las clases entidad un objeto de tipo lista de la entidad a la cual está relacionada etiquetada con la anotación @ManyToMany. Adicionalmente en una de las clases de entidad deberá especificar el objeto de mapeo del otro extremo que será utilizado por Hibernate para realizar la asociación.
           .row
-            .col-3
-              img(src='@/assets/curso/tema1/grafica3.svg')
-            .col-9
-              span.mb-0.mt-4 Para el caso de las clases de entidad deberá especificarse en la clase donde la cardinalidad máxima es 1, un atributo del tipo lista de la clase de entidad con la que tiene un vínculo @OneToMany, este atributo será de tipo lista porque se está vinculando con varios. En el ejemplo, la entidad usuario se relaciona con varios recursos, es decir un usuario puede estar vinculado con múltiples recursos. Por otra parte, la clase de entidad donde la cardinalidad máxima es muchos deberá especificar un atributo de tipo objeto con la entidad vinculada agregándole la anotación @ManyToOne. En el ejemplo un recurso estará siempre vinculado con un único usuario. Es importante anexar en la entidad de cardinalidad @OneToMany el nombre del atributo en la entidad @ManyToOne que será usada para el mapeo de la asociación por parte de Hibernate. En el ejemplo se le indica en la entidad Usuario que la relación @OneToMany será mapeada usando el atributo user de la entidad @ManyToOne.
-    .row.mb-5
-      .col-4
-        h3.mt-5.me-0.color-azulclaro.p-2.mb-0.text-center.text-white Relaciones ManyToMany
-      .col-8
-    .row.mt-5.mb-5.bg-color-gris
-      .col-5
-          img(src='@/assets/curso/tema1/imagen11.jpg')
-      .col-7.mt-4
-        p.mt-4.mb-4.ms-4.text-small Las relaciones ManyToMany obligan a la construcción de una nueva entidad de mapeo en la cual se alojarán las respectivas llaves primarias de las entidades vinculadas por medio de la relación @ManyToMany. Para su correcta implementación deberán agregarse en cada una de las clases entidad un objeto de tipo lista de la entidad a la cual está relacionada etiquetada con la anotación @ManyToMany. Adicionalmente en una de las clases de entidad deberá especificar el objeto de mapeo del otro extremo que será utilizado por Hibernate para realizar la asociación.
-        .row
-          .col-12.Neg-Der50
-            .cajon.color-acento-botones.mb-4.p-3
-              span.mb-0.text-small.mt-4 En el ejemplo siguiente, se establece una relación ManyToMany entre la clase Usuario y la clase Recurso por lo cual en cada una de ellas se agrega la correspondiente lista del tipo de entidad a la cual se asocian con la anotación @ManyToMany. En el caso de la clase Usuario se agrega el atributo de tipo lista de Recursos llamado recursos para indicar que un usuario puede estar vinculado con muchos recursos y por el lado de la clase Recursos se agrega una lista de tipo Usuario para indicar que un recurso puede estar vinculado con múltiples usuarios. Adicionalmente la relación entre usuario y recurso se mapea con el objeto users presente en la clase Recurso. La relación entre recurso y usuario no se mapea explícitamente por lo que generará la tabla intermedia recurso_usuario, lo cual cumple las reglas de transformación de un modelo lógico para una relación de muchos a muchos.
-    .row.bgbits
-      .col-12
-        .row.mb-5
-          .col-5
-          .col-2
-            h3.me-0.color-azuloscuro.p-2.mb-0.text-center.text-white.Text-mediano.Neg-Top @ManyToMany
-          .col-5
-        img(src='@/assets/curso/tema1/cuadro5.svg')
+            .col-12.Neg-Der50
+              .cajon.color-acento-botones.mb-4.p-3
+                span.mb-0.text-small.mt-4 En el ejemplo siguiente, se establece una relación ManyToMany entre la clase Usuario y la clase Recurso por lo cual en cada una de ellas se agrega la correspondiente lista del tipo de entidad a la cual se asocian con la anotación @ManyToMany. En el caso de la clase Usuario se agrega el atributo de tipo lista de Recursos llamado recursos para indicar que un usuario puede estar vinculado con muchos recursos y por el lado de la clase Recursos se agrega una lista de tipo Usuario para indicar que un recurso puede estar vinculado con múltiples usuarios. Adicionalmente la relación entre usuario y recurso se mapea con el objeto users presente en la clase Recurso. La relación entre recurso y usuario no se mapea explícitamente por lo que generará la tabla intermedia recurso_usuario, lo cual cumple las reglas de transformación de un modelo lógico para una relación de muchos a muchos.
+      .row.bgbits
+        .col-12
+          .row.mb-5
+            .col-5
+            .col-2
+              h3.me-0.color-azuloscuro.p-2.mb-0.text-center.text-white.Text-mediano.Neg-Top @ManyToMany
+            .col-5
+          img(src='@/assets/curso/tema1/cuadro5.svg')
     .titulo-segundo.color-acento-contenido
       #1_3_ciclo_vida.h2 1.3 Ciclo de vida
     p.mb-4 Los objetos manipulados por Hibernate para el proceso de gestión de la persistencia pasa por cuatro estados diferentes, a continuación, se describe cada uno de ellos:
@@ -527,13 +570,14 @@
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
+    mostrarIndicador: true,
+    modal1: false,
+    modal3: false,
+    modal4: false,
     // variables de vue
   }),
   mounted() {

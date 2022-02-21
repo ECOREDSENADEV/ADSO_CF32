@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="736.381" height="635.313" viewBox="0 0 736.381 635.313">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.353" y1="1.35" x2="0.702" y2="-0.696" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.25" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#afafaf"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="0" x2="0.5" y2="1" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Grupo_146134" data-name="Grupo 146134" transform="translate(-422.863 -12313.343)">
+    <g id="Grupo_145885" data-name="Grupo 145885" transform="translate(422.863 12313.343)">
+      <rect id="Rectángulo_37342" data-name="Rectángulo 37342" width="735.498" height="632.306" rx="4.872" transform="translate(0.339)" fill="#12263f"/>
+      <path id="Trazado_183947" data-name="Trazado 183947" d="M333.645,184.776V702.418c0,9-1.768,17.663,4.706,17.663l726.812-1.181c6.471,0,4.289-7.481,4.289-16.483V184.776Z" transform="translate(-333.424 -87.776)" fill="url(#linear-gradient)"/>
+      <rect id="Rectángulo_37343" data-name="Rectángulo 37343" width="28.022" height="636.857" rx="5.408" transform="translate(686.516 48.961) rotate(90)" fill="url(#linear-gradient-2)"/>
+      <path id="Trazado_183948" data-name="Trazado 183948" d="M371.649,162.073a7.612,7.612,0,1,1-7.611-7.614A7.611,7.611,0,0,1,371.649,162.073Z" transform="translate(-278.236 -136.459)" fill="#fff"/>
+      <path id="Trazado_183951" data-name="Trazado 183951" d="M371.649,162.073a7.612,7.612,0,1,1-7.611-7.614A7.611,7.611,0,0,1,371.649,162.073Z" transform="translate(-308.622 -136.459)" fill="#ffa726"/>
+      <path id="Trazado_183949" data-name="Trazado 183949" d="M381.466,162.073a7.614,7.614,0,1,1-7.614-7.614A7.614,7.614,0,0,1,381.466,162.073Z" transform="translate(-257.663 -136.459)" fill="#26a69a"/>
+    </g>
+    <text id="package_com.sena_import_org._springframework.beans.factory.BeanFactory_import_org.springframework.beans.factory.xml.XmlBeanFactory_import_org.springframework.core.io.ClassPathResource_import_org.springframework.core.io.Resource_public_class_SenaLo" data-name="package com.sena 
+ 
+import org. springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+ 
+public class SenaLo" transform="translate(540.308 12441.655)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">package com.sena </tspan><tspan x="0" y="44"> </tspan><tspan x="0" y="71">import org. springframework.beans.factory.BeanFactory;</tspan><tspan x="0" y="98">import org.springframework.beans.factory.xml.XmlBeanFactory;</tspan><tspan x="0" y="125">import org.springframework.core.io.ClassPathResource;</tspan><tspan x="0" y="152">import org.springframework.core.io.Resource;</tspan><tspan x="0" y="179"> </tspan><tspan x="0" y="206">public class SenaLogic{ </tspan><tspan x="0" y="233"> </tspan><tspan x="0" y="260" xml:space="preserve">  public static void main(String[] args){</tspan><tspan x="0" y="287" xml:space="preserve">    Resource recurso = new ClassPathResource(“springconfig.xml”);</tspan><tspan x="0" y="314" xml:space="preserve">      BeanFactory factory = new XmlBeanFactory(recurso);</tspan><tspan x="0" y="341"> </tspan><tspan x="0" y="368" xml:space="preserve"> AprendizBean aprendizBean = AprendizBean)factory.getBean(“aprendiz”);</tspan><tspan x="0" y="395"> </tspan><tspan x="0" y="422" xml:space="preserve">      aprendizBean.verAprendiz();</tspan><tspan x="0" y="449" xml:space="preserve">   }</tspan><tspan x="0" y="476">}</tspan><tspan x="0" y="503"></tspan></text>
+    <text id="_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_" data-name="1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+" transform="translate(492.308 12464.655)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="-5.212" y="0">1</tspan><tspan x="-5.212" y="26">2</tspan><tspan x="-5.212" y="52">3</tspan><tspan x="-5.212" y="78">4</tspan><tspan x="-5.212" y="104">5</tspan><tspan x="-5.212" y="130">6</tspan><tspan x="-5.212" y="156">7</tspan><tspan x="-5.212" y="182">8</tspan><tspan x="-5.212" y="208">9</tspan><tspan x="-10.424" y="234">10</tspan><tspan x="-10.424" y="260">11</tspan><tspan x="-10.424" y="286">12</tspan><tspan x="-10.424" y="312">13</tspan><tspan x="-10.424" y="338">14</tspan><tspan x="-10.424" y="364">15</tspan><tspan x="-10.424" y="390">16</tspan><tspan x="-10.424" y="416">17</tspan><tspan x="-10.424" y="442">18</tspan><tspan x="0" y="468"></tspan></text>
+    <g id="Rectángulo_42690" data-name="Rectángulo 42690" transform="translate(520 12699)" fill="none" stroke="red" stroke-width="3">
+      <rect width="612" height="42" stroke="none"/>
+      <rect x="1.5" y="1.5" width="609" height="39" fill="none"/>
+    </g>
+    <g id="Rectángulo_42691" data-name="Rectángulo 42691" transform="translate(540 12834)" fill="none" stroke="red" stroke-width="3">
+      <rect width="265" height="42" stroke="none"/>
+      <rect x="1.5" y="1.5" width="262" height="39" fill="none"/>
+    </g>
+  </g>
+</svg>
