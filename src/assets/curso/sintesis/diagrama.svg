@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1137" height="618.227" viewBox="0 0 1137 618.227">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#039be5"/>
+      <stop offset="1" stop-color="#027fbc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="0.25" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#afafaf"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_146108" data-name="Grupo 146108" transform="translate(-245.5 -908.675)">
+    <g id="Grupo_146087" data-name="Grupo 146087" transform="translate(668.693 908.675)">
+      <rect id="Rectángulo_37274" data-name="Rectángulo 37274" width="202.464" height="60.061" rx="10" transform="translate(1.155 0)" fill="url(#linear-gradient)"/>
+      <g id="Rectángulo_37275" data-name="Rectángulo 37275" transform="translate(0 0)" fill="#fff" stroke="#1565c0" stroke-width="1">
+        <rect width="56.596" height="60.061" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="55.596" height="59.061" rx="9.5" fill="none"/>
+      </g>
+      <g id="Fn9hEg" transform="translate(8.844 14.089)">
+        <g id="Grupo_142370" data-name="Grupo 142370" transform="translate(0 0)">
+          <path id="Trazado_183502" data-name="Trazado 183502" d="M3106.1-919.7v31.513a1.2,1.2,0,0,1-1.139.552q-18.416-.021-36.833,0a1.187,1.187,0,0,1-1.145-.548V-919.7a1.194,1.194,0,0,1,1.145-.552q18.414.019,36.827,0A1.186,1.186,0,0,1,3106.1-919.7Zm-1.667,30.4v-22.755h-35.792v22.755Zm.014-29.279H3068.65v4.826h35.793Z" transform="translate(-3066.98 920.247)" fill="#12263f"/>
+          <path id="Trazado_183503" data-name="Trazado 183503" d="M3136.252-800.03c1.526,2.429,3.044,4.826,4.533,7.242a1.241,1.241,0,0,1,.144.895.811.811,0,0,1-.619.479,1.256,1.256,0,0,1-.834-.464c-.642-.917-1.217-1.881-1.814-2.83q-1.458-2.319-2.911-4.641c-.422-.674-.42-.835.039-1.458q2.331-3.168,4.668-6.331a.847.847,0,0,1,1.208-.333c.429.284.491.76.114,1.277-1.439,1.972-2.892,3.934-4.34,5.9C3136.386-800.221,3136.335-800.147,3136.252-800.03Z" transform="translate(-3127.11 819.848)" fill="#12263f"/>
+          <path id="Trazado_183504" data-name="Trazado 183504" d="M3300.3-808.7a3.186,3.186,0,0,1,.694.5q2.466,3.3,4.9,6.628a.825.825,0,0,1,.024,1.009q-2.427,3.853-4.85,7.707a.817.817,0,0,1-1.191.371.838.838,0,0,1-.181-1.239q2.154-3.448,4.331-6.88a.585.585,0,0,0-.034-.8c-1.431-1.909-2.833-3.84-4.254-5.757a.812.812,0,0,1-.122-1A3.149,3.149,0,0,1,3300.3-808.7Z" transform="translate(-3274.229 820.821)" fill="#12263f"/>
+          <path id="Trazado_183505" data-name="Trazado 183505" d="M3210.709-780.1a.856.856,0,0,1-.793-1.372q1.074-1.946,2.16-3.884,2.051-3.667,4.1-7.332c.211-.38.492-.7.935-.549a1.314,1.314,0,0,1,.645.627.86.86,0,0,1-.121.656q-3.147,5.662-6.33,11.3A2.282,2.282,0,0,1,3210.709-780.1Z" transform="translate(-3194.241 807.075)" fill="#12263f"/>
+          <path id="Trazado_183506" data-name="Trazado 183506" d="M3098.616-889.315a.829.829,0,0,1-.853.789.808.808,0,0,1-.773-.862.808.808,0,0,1,.818-.764A.829.829,0,0,1,3098.616-889.315Z" transform="translate(-3093.728 893.422)" fill="#12263f"/>
+          <path id="Trazado_183507" data-name="Trazado 183507" d="M3128.624-889.334a.82.82,0,0,1-.834.809.809.809,0,0,1-.8-.844.807.807,0,0,1,.8-.782A.819.819,0,0,1,3128.624-889.334Z" transform="translate(-3120.473 893.422)" fill="#12263f"/>
+          <path id="Trazado_183508" data-name="Trazado 183508" d="M3157.787-888.525a.824.824,0,0,1-.786-.865.826.826,0,0,1,.835-.761.837.837,0,0,1,.788.865A.836.836,0,0,1,3157.787-888.525Z" transform="translate(-3147.219 893.421)" fill="#12263f"/>
+        </g>
+      </g>
+      <text id="Hibernate" transform="translate(87.742 35.351)" fill="#fff" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Hibernate</tspan></text>
+    </g>
+    <g id="Grupo_146088" data-name="Grupo 146088" transform="translate(327.046 1000.321)">
+      <path id="Unión_57" data-name="Unión 57" d="M0,0H51.536V12.4H0Z" transform="translate(8.775 51.536) rotate(-90)" fill="#bec1c7"/>
+      <path id="Unión_58" data-name="Unión 58" d="M20.141,14.381,0,28.765V0Z" transform="translate(28.765 42.591) rotate(90)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146091" data-name="Grupo 146091" transform="translate(967.977 1000.321)">
+      <path id="Unión_57-2" data-name="Unión 57" d="M0,0H51.536V12.4H0Z" transform="translate(8.775 51.536) rotate(-90)" fill="#bec1c7"/>
+      <path id="Unión_58-2" data-name="Unión 58" d="M20.141,14.381,0,28.765V0Z" transform="translate(28.765 42.591) rotate(90)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146101" data-name="Grupo 146101" transform="translate(1076.786 1115.243) rotate(-90)">
+      <path id="Unión_57-3" data-name="Unión 57" d="M0,0H18.728V12.4H0Z" transform="translate(8.775 18.728) rotate(-90)" fill="#bec1c7"/>
+      <path id="Unión_58-3" data-name="Unión 58" d="M20.141,14.381,0,28.765V0Z" transform="translate(28.765 9.782) rotate(90)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146092" data-name="Grupo 146092" transform="translate(755.57 1000.321)">
+      <path id="Unión_57-4" data-name="Unión 57" d="M0,0H51.536V12.4H0Z" transform="translate(8.775 51.536) rotate(-90)" fill="#bec1c7"/>
+      <path id="Unión_58-4" data-name="Unión 58" d="M20.141,14.381,0,28.765V0Z" transform="translate(28.765 42.591) rotate(90)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146089" data-name="Grupo 146089" transform="translate(545.387 1000.321)">
+      <path id="Unión_57-5" data-name="Unión 57" d="M0,0H51.536V12.4H0Z" transform="translate(8.775 51.536) rotate(-90)" fill="#bec1c7"/>
+      <path id="Unión_58-5" data-name="Unión 58" d="M20.141,14.381,0,28.765V0Z" transform="translate(28.765 42.591) rotate(90)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146090" data-name="Grupo 146090" transform="translate(1186.318 1000.321)">
+      <path id="Unión_57-6" data-name="Unión 57" d="M0,0H51.536V12.4H0Z" transform="translate(8.775 51.536) rotate(-90)" fill="#bec1c7"/>
+      <path id="Unión_58-6" data-name="Unión 58" d="M20.141,14.381,0,28.765V0Z" transform="translate(28.765 42.591) rotate(90)" fill="#bec1c7"/>
+    </g>
+    <path id="Unión_71" data-name="Unión 71" d="M0,0H859.272V11.217H0Z" transform="translate(1200.7 1011.537) rotate(180)" fill="#bec1c7"/>
+    <path id="Unión_72" data-name="Unión 72" d="M0,0H42.8V11.217H0Z" transform="translate(776.672 968.736) rotate(90)" fill="#bec1c7"/>
+    <rect id="Rectángulo_42792" data-name="Rectángulo 42792" width="188.853" height="60.061" rx="10" transform="translate(247.002 1070.83)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_42797" data-name="Rectángulo 42797" width="188.853" height="60.061" rx="10" transform="translate(247.002 1180)" fill="#ffca28"/>
+    <rect id="Rectángulo_42804" data-name="Rectángulo 42804" width="188.853" height="60.061" rx="10" transform="translate(679.372 1180)" fill="#ffca28"/>
+    <rect id="Rectángulo_42805" data-name="Rectángulo 42805" width="188.853" height="60.061" rx="10" transform="translate(1107.103 1180)" fill="#ffca28"/>
+    <rect id="Rectángulo_42800" data-name="Rectángulo 42800" width="188.853" height="60.061" rx="10" transform="translate(471.213 1180)" fill="#ffca28"/>
+    <rect id="Rectángulo_42801" data-name="Rectángulo 42801" width="83.243" height="60.061" rx="10" transform="translate(611.236 1315.031)" fill="#ffca28"/>
+    <rect id="Rectángulo_42807" data-name="Rectángulo 42807" width="65.947" height="60.061" rx="10" transform="translate(1250.605 1318.067)" fill="#ffca28"/>
+    <rect id="Rectángulo_42803" data-name="Rectángulo 42803" width="131.895" height="60.061" rx="10" transform="translate(611.236 1410.448)" fill="#ffca28"/>
+    <rect id="Rectángulo_42806" data-name="Rectángulo 42806" width="131.895" height="60.061" rx="10" transform="translate(1250.605 1413.484)" fill="#ffca28"/>
+    <rect id="Rectángulo_42802" data-name="Rectángulo 42802" width="83.243" height="60.061" rx="10" transform="translate(443.8 1360.369)" fill="#ffca28"/>
+    <rect id="Rectángulo_42808" data-name="Rectángulo 42808" width="83.243" height="60.061" rx="10" transform="translate(1083.169 1363.405)" fill="#ffca28"/>
+    <rect id="Rectángulo_42809" data-name="Rectángulo 42809" width="83.243" height="60.061" rx="10" transform="translate(1083.169 1466.841)" fill="#ffca28"/>
+    <rect id="Rectángulo_42798" data-name="Rectángulo 42798" width="188.853" height="60.061" rx="10" transform="translate(247.002 1291.544)" fill="#ffca28"/>
+    <rect id="Rectángulo_42793" data-name="Rectángulo 42793" width="188.853" height="60.061" rx="10" transform="translate(472.757 1070.83)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_42794" data-name="Rectángulo 42794" width="188.853" height="60.061" rx="10" transform="translate(679.372 1070.83)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_42795" data-name="Rectángulo 42795" width="188.853" height="60.061" rx="10" transform="translate(887.933 1070.83)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectángulo_42796" data-name="Rectángulo 42796" width="188.853" height="60.061" rx="10" transform="translate(1106.274 1070.83)" fill="url(#linear-gradient-2)"/>
+    <text id="Framework" transform="translate(297.165 1104.875)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Framework</tspan></text>
+    <text id="JDBC" transform="translate(319.711 1214.046)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">JDBC</tspan></text>
+    <text id="Tablas" transform="translate(748.522 1214.046)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Tablas</tspan></text>
+    <text id="Operaciones" transform="translate(1152.52 1214.046)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Operaciones</tspan></text>
+    <text id="Propiedades" transform="translate(520.19 1214.046)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Propiedades</tspan></text>
+    <text id="Driver" transform="translate(629.36 1349.076)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Driver</tspan></text>
+    <text id="get" transform="translate(1268.73 1352.112)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">get</tspan></text>
+    <text id="Credenciales" transform="translate(625.801 1444.494)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Credenciales</tspan></text>
+    <text id="createQuery" transform="translate(1268.73 1447.53)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">createQuery</tspan></text>
+    <text id="URL" transform="translate(471.417 1394.414)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">URL</tspan></text>
+    <text id="Save" transform="translate(1107.227 1398.45)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Save</tspan></text>
+    <text id="Delete" transform="translate(1100.107 1501.886)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Delete</tspan></text>
+    <text id="Bases_de_datos" data-name="Bases de datos" transform="translate(284.112 1325.589)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Bases de datos</tspan></text>
+    <text id="Archivo_de_configuración" data-name="Archivo de 
+configuración" transform="translate(563.054 1096.568)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="-41.944" y="0">Archivo de </tspan><tspan x="-51.531" y="20">configuración</tspan></text>
+    <text id="Entity_Classes" data-name="Entity Classes" transform="translate(716.483 1104.875)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Entity Classes</tspan></text>
+    <text id="SessionFactory" transform="translate(921.105 1104.875)" fill="#12263f" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">SessionFactory</tspan></text>
+    <text id="Session" transform="translate(1169.49 1105.875)" fill="#12263f" font-size="18" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Session</tspan></text>
+    <g id="Grupo_146093" data-name="Grupo 146093" transform="translate(356.046 1130.892) rotate(90)">
+      <path id="Unión_62" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146100" data-name="Grupo 146100" transform="translate(788.417 1130.892) rotate(90)">
+      <path id="Unión_62-2" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-2" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146102" data-name="Grupo 146102" transform="translate(1216.148 1130.892) rotate(90)">
+      <path id="Unión_62-3" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-3" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146096" data-name="Grupo 146096" transform="translate(580.258 1130.892) rotate(90)">
+      <path id="Unión_62-4" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-4" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146097" data-name="Grupo 146097" transform="translate(560.268 1330.68)">
+      <path id="Unión_62-5" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-5" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146106" data-name="Grupo 146106" transform="translate(1199.638 1333.716)">
+      <path id="Unión_62-6" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-6" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146099" data-name="Grupo 146099" transform="translate(560.268 1426.098)">
+      <path id="Unión_62-7" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-7" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146103" data-name="Grupo 146103" transform="translate(1199.638 1429.134)">
+      <path id="Unión_62-8" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-8" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146098" data-name="Grupo 146098" transform="translate(571.955 1406.253) rotate(-180)">
+      <path id="Unión_62-9" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-9" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146104" data-name="Grupo 146104" transform="translate(1211.325 1409.289) rotate(-180)">
+      <path id="Unión_62-10" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-10" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146107" data-name="Grupo 146107" transform="translate(1211.325 1512.725) rotate(-180)">
+      <path id="Unión_62-11" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-11" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146094" data-name="Grupo 146094" transform="translate(356.046 1240.063) rotate(90)">
+      <path id="Unión_62-12" data-name="Unión 62" d="M0,0H30.412V11.217H0Z" transform="translate(30.412 19.99) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_64-12" data-name="Unión 64" d="M20.141,14.381,0,28.765V0Z" transform="translate(24.772 0)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146095" data-name="Grupo 146095" transform="translate(571.485 1284.491) rotate(90)">
+      <path id="Unión_62-13" data-name="Unión 62" d="M0,0H162.613V11.217H0Z" transform="translate(162.613 11.217) rotate(180)" fill="#bec1c7"/>
+    </g>
+    <g id="Grupo_146105" data-name="Grupo 146105" transform="translate(1210.854 1240.063) rotate(90)">
+      <path id="Unión_62-14" data-name="Unión 62" d="M0,0H209.726V11.217H0Z" transform="translate(257.192 11.217) rotate(180)" fill="#bec1c7"/>
+      <path id="Unión_73" data-name="Unión 73" d="M0,0H15.282V11.217H0Z" transform="translate(15.282 11.217) rotate(180)" fill="#bec1c7"/>
+    </g>
+    <text id="Requiere" transform="translate(802.032 1035.059)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Requiere</tspan></text>
+    <text id="Crea" transform="translate(1070.211 1061.164)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Crea</tspan></text>
+    <text id="Permite_ejecutar" data-name="Permite ejecutar" transform="translate(1063.091 1157.282)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Permite ejecutar</tspan></text>
+    <text id="Mapean" transform="translate(689.301 1156.096)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Mapean</tspan></text>
+    <text id="Define" transform="translate(493.507 1157.282)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Define</tspan></text>
+    <text id="Utiliza" transform="translate(265.673 1157.282)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Utiliza</tspan></text>
+    <text id="Para_manipular" data-name="Para
+manipular" transform="translate(245.5 1260.332)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Para</tspan><tspan x="0" y="17">manipular</tspan></text>
+    <text id="Entre_las_que_encontramos" data-name="Entre las que encontramos" transform="translate(1110.557 1272.386)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Entre las que encontramos</tspan></text>
+    <text id="Entre_las_que_se_caracterizzan" data-name="Entre las que se caracterizzan" transform="translate(459.094 1273.572)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Entre las que se caracterizzan</tspan></text>
+    <text id="Es_un" data-name="Es un" transform="translate(287.032 1035.059)" fill="#12263f" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Es un</tspan></text>
+    <path id="Unión_74" data-name="Unión 74" d="M0,0H15.282V11.217H0Z" transform="translate(561.228 1255.345) rotate(-90)" fill="#bec1c7"/>
+  </g>
+</svg>
